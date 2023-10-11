@@ -1,2 +1,30 @@
-# mariam_amazon_demo
-Implement automated test scenario using mentioned technology stack that validates search 
+# POC_FRAMEWORK
+
+
+1. <b>Pre-Requisities:</b>
+    a. Install Node.js (Needs to download : <a href="https://nodejs.org/en">Click Here</a>)
+    b. Create a Project Folder and Open it in the VS Code or any other your suitable IDE. (To download the VS code <a href="https://code.visualstudio.com/Download">Click Here</a>)
+
+
+2. <b>Configure the Folder and Framework Stuffs:</b>
+    a. Open the Folder in the VS code and then Open terminal inside the VS Code.
+    b. Execute Command npm init.
+    c. If any error found check whether Node and NPM is installed properly.
+    d. To Install cypress execute command npm install @cypress(version) or npm install cypress.
+    e. To install xpath execute command npm install cypress-xpath.
+    f. To install cucumber if we are writing the test scenarios or cases in the bdd then we use cucumber npm install cypress-cucumber-preprocessor
+
+    Note : some more configuration required like in the support/e2e file add <b>require</b> of cypress. To setup the frameowrk to work with the cucumber make async <b>setupNodeEvents</b>. To make enable the cucumber we need to add dependencies in the package.json <b>cypress-cucumber-preprocessor</b>.
+
+3. <b>Framework Brief:</b>
+    a. e2e is the base folder inside that all other folders like Base , features , PageObjects , Selectors , StepDefinitions are present.
+    b. BasePage means all the basic or we can common functionalities are written at there in the form of methods.
+    c. <b>.feature</b> extension files are representation of scenario and cases.
+    d. In Page objects files are represent the Module related stuffs like all the functions or methods which are related to that modules are written at there.
+    e. Step definitions are glues with the feature with there respective methods.
+
+
+
+<center>For more details please feel free to reach out. Thank you</center>
+
+
